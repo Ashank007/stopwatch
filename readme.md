@@ -4,71 +4,46 @@ A sleek and efficient stopwatch application built using HTML, CSS, and JavaScrip
 
 Table of Contents
 
-. Introduction
-. Features
-. Installation
-. Usage
-. Contributing
-. License
-. Contact
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Introduction
+## Introduction
+
 The Stopwatch project is a simple yet powerful web application that allows users to measure time intervals accurately. Designed with a minimalist interface, it is easy to use and can be integrated into any web page.
 
-Features
+## Features
 
-. Start, Stop, Reset: Basic stopwatch functionalities.
-. Responsive Design: Adapts to any screen size.
-. Smooth Transitions: CSS for a polished look and feel.
+- **Start, Stop, Reset**: Basic stopwatch functionalities.
+- **Responsive Design**: Adapts to any screen size.
+- **Smooth Transitions**: CSS for a polished look and feel.
 
-Installation
+## Installation
+
 Follow these steps to get a local copy up and running.
 
-Prerequisites
+### Prerequisites
+
 You need a modern web browser to run the stopwatch application.
 
-Clone the Repository
-bash
-Copy code
-git clone https://github.com/Ashank007/stopwatch.git
-cd stopwatch
-Open in Browser
-Open index.html in your preferred web browser.
+### Clone the Repository
+
+- git clone https://github.com/Ashank007/stopwatch.git
+- cd stopwatch
+
+ ## Open in Browser
+ Open index.html in your preferred web browser.
 
 Usage
-1) Clone the repository:
-git clone https://github.com/Ashank007/stopwatch.git
+1) Clone the repository: git clone https://github.com/Ashank007/stopwatch.git
 
-2) Navigate to the project directory:
-cd stopwatch
+2) Navigate to the project directory: cd stopwatch
 
 3) Open index.html in your browser.
-
-Example
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stop Watch</title>
-</head>
-<link rel="stylesheet" href="style.css">
-<body>
-    <div class="container">
-        <h1>Stop Watch</h1>
-        <div class="clock">
-            00:00:00
-        </div>
-        <div>
-            <button id="startBtn"  onclick="startStopWatch()">Start</button>
-            <button id="stopBtn" onclick="stopStopWatch()" disabled>Stop</button>
-            <button id="resetBtn" onclick="resetStopWatch()"disabled>Reset</button>
-        </div>
-    </div>
-</body>
-<script src="script.js"></script>
-</html>
 
 Contributing
 
