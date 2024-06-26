@@ -30,14 +30,14 @@ You need a modern web browser to run the stopwatch application.
 Clone the Repository
 bash
 Copy code
-git clone https://github.com/your-username/stopwatch.git
+git clone https://github.com/Ashank007/stopwatch.git
 cd stopwatch
 Open in Browser
 Open index.html in your preferred web browser.
 
 Usage
 1) Clone the repository:
-git clone https://github.com/your-username/stopwatch.git
+git clone https://github.com/Ashank007/stopwatch.git
 
 2) Navigate to the project directory:
 cd stopwatch
